@@ -40,10 +40,6 @@
                             <h4 class="contact__title">{{contact.item3.caption}}:</h4>
                             <div class="contact__data">{{contact.item3.data}}</div>
                         </div>
-                        <div class="contact">
-                            <h4 class="contact__title">{{contact.item4.caption}}:</h4>
-                            <div class="contact__data">{{contact.item4.data}}</div>
-                        </div>
                     </div>
                 </div>
                 <div class="feature">
@@ -53,49 +49,26 @@
                             <ul>
                                 <li>
                                     <h4 class="skills__item-title">{{skills.item1.subject}}</h4>
-                                    <div class="skills__item-bar {{skills.item1.mark}}"></div>
                                 </li>
                                 <li>
                                     <h4 class="skills__item-title">{{skills.item2.subject}}</h4>
-                                    <div class="skills__item-bar {{skills.item2.mark}}"></div>
                                 </li>
                                 <li>
                                     <h4 class="skills__item-title">{{skills.item3.subject}}</h4>
-                                    <div class="skills__item-bar {{skills.item3.mark}}"></div>
                                 </li>
                                 <li>
                                     <h4 class="skills__item-title">{{skills.item4.subject}}</h4>
-                                    <div class="skills__item-bar {{skills.item4.mark}}"></div>
                                 </li>
                                 <li>
                                     <h4 class="skills__item-title">{{skills.item5.subject}}</h4>
-                                    <div class="skills__item-bar {{skills.item5.mark}}"></div>
                                 </li>
                                 <li>
                                     <h4 class="skills__item-title">{{skills.item6.subject}}</h4>
-                                    <div class="skills__item-bar {{skills.item6.mark}}"></div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="feature feature--on-bottom">
-                   <h3 class="feature__title feature__title--light-b-border">{{lang.title}}</h3>
-                   <div class="feature__content feature__content--l-r-margin">
-                    <p class="language">
-                        <span class="language__label">{{lang.data.lang1.caption}}:</span>
-                        <span class="language__level">{{lang.data.lang1.level}}</span>
-                    </p>
-                    <p class="language">
-                        <span class="language__label">{{lang.data.lang2.caption}}:</span>
-                        <span class="language__level">{{lang.data.lang2.level}}</span>
-                    </p>
-                    <p class="language">
-                        <span class="language__label">{{lang.data.lang3.caption}}:</span>
-                        <span class="language__level">{{lang.data.lang3.level}}</span>
-                    </p>
-                </div>
-            </div>
             </div>
             <div class="page__right col-xs-7">
                 <div class="about-me">
@@ -118,7 +91,8 @@
                                     <span class="timeline__event__circle-icon"></span>
                                     <h3 class="timeline__event__title">{{experience.item1.position}}</h3>
                                     <h4 class="timeline__event__subtitle">{{experience.item1.firm}}</h4>
-                                    <div class="generic-content-container">{{experience.item1.summary}}</div>
+                                    <div class="generic-content-container">-{{experience.item1.summary}}</div>
+                                    <div class="generic-content-container">-{{experience.item1.summary}}</div>
                                 </div>
                             </li>
                             <li class="row timeline">

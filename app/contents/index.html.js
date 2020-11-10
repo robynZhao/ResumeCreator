@@ -1,102 +1,66 @@
-var dateformat = require("dateformat");
-
-var date = dateformat(new Date(), 'dd.mm.yyyy');
-
 module.exports = {
     document: {
-        title: "Bernard Keen"
+        title: "Ruoshi Zhao"
     },
     header: {
         github:{
-            caption: `github.com/frontant/cv-template`,
-            link: 'https://github.com/frontant/cv-template'
-        },
-        date: 'City, ' + date
+            caption: `github.com/robynZhao/RobynZhao.github.io`,
+            link: 'https://github.com/robynZhao/RobynZhao.github.io'
+        }
     },
     contact: {
         title: 'Contact',
         item1: {
             caption: 'Mobile',
-            data: '+123 45 67 89 00'
+            data: '+1 204 960 6635'
         },
         item2: {
             caption: 'E-Mail',
-            data: '<a href="mailto:bernard.keen@example.com?subject=Request">bernard.keen@example.com</a>'
+            data: '<a href="mailto:zhaor345@myumanitoba.com?subject=Request">zhaor345@myumanitoba.com</a>'
         },
         item3: {
             caption: 'Websites',
-            data: `<a href="https://github.com" target="_blank">https://github.com</a>`
-        },
-        item4: {
-            caption: 'Address',
-            data: `Example Street<br>12345 City`
+            data: `<a href="https://github.com/robynZhao" target="_blank">https://github.com/robynZhao</a>`
         }
     },
     skills: {
         title: 'Skills',
         item1:{
-            subject: 'Html',
-            mark: 'skills__item-bar--very-good'
+            subject: 'Html'
         },
         item2:{
-            subject: 'Css',
-            mark: 'skills__item-bar--good'
+            subject: 'Css'
         },
         item3:{
-            subject: 'Photoshop',
-            mark: 'skills__item-bar--average'
+            subject: 'Photoshop'
         },
         item4:{
-            subject: 'Javascript',
-            mark: 'skills__item-bar--very-good'
+            subject: 'Javascript'
         },
         item5:{
-            subject: 'Php',
-            mark: 'skills__item-bar--average'
+            subject: 'Php'
         },
         item6:{
-            subject: 'Git',
-            mark: 'skills__item-bar--good'
-        }
-    },
-    lang: {
-        title: 'Languages',
-        data: {
-            lang1: {
-                caption: 'English',
-                level: 'Mother tongue'
-            },
-            lang2: {
-                caption: 'German',
-                level: 'Full professional proficiency'
-            },
-            lang3: {
-                caption: 'Spanish',
-                level: 'Basic knowledge'
-            }
+            subject: 'Git'
         }
     },
     aboutMe: {
-        firstName: 'Bernard',
-        lastName: 'Keen',
-        position: 'Web Developer',
-        summary: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Id non, fugit saepe reiciendis cumque sit magnam officiis veniam
-        iusto <span class='generic-content-container__highlight'>voluptatum</span>
-        aut dolores <span class='generic-content-container__highlight'>perspiciatis</span>
-        autem <span class='generic-content-container__highlight'>sapiente</span>
-        totam, reprehenderit, vero sunt culpa!`
+        firstName: 'Ruoshi',
+        lastName: 'Zhao',
+        position: 'Software Developer',
+        summary: `Hi, I am Ruoshi. I will be graduating from University of Manitoba in December 2020 with BSc. of Computer Science degree. 
+        My interest is software development including both front-end and back-end development.`
     },
     experience:{
         title : 'Experience',
         item1: {
             period: {
-                start: 2017,
-                end: 2018,
+                start: 2020,
+                end: 2020,
             },
-            location: 'Sydney, AU',
-            firm: 'Ino-Tech Ficional ',
-            position: 'Junior Web Front End Developer',
+            location: 'Winnipeg, Manitoba',
+            firm: 'Investors Groups Management Financial Inc.',
+            position: 'Data Developer, Co-op Work Term III',
             summary: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Id non, fugit saepe reiciendis cumque sit magnam officiis veniam.`
         },
@@ -105,7 +69,7 @@ module.exports = {
                 start: 2016,
                 end: 2017,
             },
-            location: 'San José, US',
+            location: 'Winnipeg, Manitoba',
             firm: 'Ficional Teco',
             position: 'Junor UX Developer',
             summary: `Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -117,7 +81,7 @@ module.exports = {
                 start: 2016,
                 end: 2013,
             },
-            location: 'Berlin, DE',
+            location: 'Winnipeg, Manitoba',
             firm: 'Audi AG',
             position: 'Student Employee',
             summary: `Lorem ipsum, dolor sit amet consectetur adipisicing elit
