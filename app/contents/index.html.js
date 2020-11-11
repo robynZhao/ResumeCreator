@@ -4,7 +4,7 @@ module.exports = {
     },
     header: {
         github:{
-            caption: `github.com/robynZhao/RobynZhao.github.io`,
+            caption: 'github.com/robynZhao/RobynZhao.github.io',
             link: 'https://github.com/robynZhao/RobynZhao.github.io'
         }
     },
@@ -55,64 +55,62 @@ module.exports = {
         title : 'Experience',
         item1: {
             period: {
-                start: 2020,
-                end: 2020,
+                start: 2020.06,
+                end: 2020.08,
             },
             location: 'Winnipeg, Manitoba',
             firm: 'Investors Groups Management Financial Inc.',
             position: 'Data Developer, Co-op Work Term III',
-            summary: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Id non, fugit saepe reiciendis cumque sit magnam officiis veniam.`
+            summary1: 'Created dynamic dashboards for business reports by Tableau ' +
+                'and SAP Webi.',
+            summary2: 'Provided technical specifications to create Tableau dashboard.'
         },
         item2: {
             period: {
-                start: 2016,
-                end: 2017,
+                start: 2019.09,
+                end: 2019.12,
             },
             location: 'Winnipeg, Manitoba',
-            firm: 'Ficional Teco',
-            position: 'Junor UX Developer',
-            summary: `Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Quam, incidunt perspiciatis, esse eos asperiores repudiandae porro
-            nulla fugit quidem amet tenetur neque beatae?`
+            firm: 'Priceline Partner Network',
+            position: 'Software Developer, Co-op Work Term II',
+            summary1: 'Built global config files for Priceline partners to reflect ' +
+                'each of their characteristics.',
+            summary2: 'Created and updated components by React, refactored methods ' +
+                'and tested results in a sandbox.',
+            summary3: 'Implemented features and fixed multiple bugs on UI, and ' +
+                'wrote unite tests with Jest and Enzyme.',
+            summary4: 'Created detailed documents for developer environment setup ' +
+                'and solutions to common problems.'
         },
         item3: {
             period: {
-                start: 2016,
-                end: 2013,
+                start: 2019.01,
+                end: 2019.04,
             },
             location: 'Winnipeg, Manitoba',
-            firm: 'Audi AG',
-            position: 'Student Employee',
-            summary: `Lorem ipsum, dolor sit amet consectetur adipisicing elit
-            Quam, incidunt perspiciatis, esse eos asperiores repudiandae porro
-            nulla fugit quidem amet.`
+            firm: 'Varian Medical Systems Canada Inc.',
+            position: 'Software Developer, Co-op Work Term I',
+            summary1: 'Implemented features and fixed defects of UI by Angular, ' +
+                'and created unit tests.',
+            summary2: 'Created and updated automated E2E tests under different ' +
+                'environments by Protractor.js.\n',
+            summary3: 'Maintained services with Java to increase application ' +
+                'efficiency, such as refactoring module files and optimizing data ' +
+                'prefetching with new functions.',
+            summary4: 'Created API tests for new features on client-side with JUnit 5, ' +
+                'and on server-side with REST Assured.'
         }
     },
     education: {
         title: 'Education',
         item1: {
             period: {
-                start: 2011,
-                end: 2013,
+                start: 2016,
+                end: 2020,
             },
-            location: 'Munich, DE',
-            school: 'Munich University of Applied Sciences',
-            degree: 'M.B.A. WebDevelopment',
-            summary: `Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Quam, incidunt perspiciatis, esse eos asperiores repudiandae
-            porro nulla fugit quidem.`
-        },
-        item2: {
-            period: {
-                start: 2005,
-                end: 2011,
-            },
-            location: 'Munich, DE',
-            school: 'Advancement of Science And Art',
-            degree: 'B.Sc. Creative Arts',
-            summary: `Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Quam, incidunt perspiciatis, esse eos asperiores repudiandae.`
+            location: 'Winnipeg, Manitoba',
+            school: 'University of Manitoba',
+            degree: 'Bachelor of Computer Science, Major (Co-op)'
         }
     },
     interests: {

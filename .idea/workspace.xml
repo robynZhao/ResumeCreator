@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95a1b27d-75e0-48fe-bb7a-9ac33ee5ceb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RobynZhao.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/contents/index.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/contents/index.html.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
@@ -61,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604975012955</updated>
-      <workItem from="1604975014593" duration="2037000" />
+      <workItem from="1604975014593" duration="6268000" />
     </task>
     <servers />
   </component>
